@@ -13,8 +13,8 @@ comment lier une base de donne MySQL SERVER
     USE <votre_base>
     
     CREATE TABLE <nom_de_la table>(
-    id INT IDENTITY(1,1) PRIMARY KEY; (permet de definir une clé primaire qui s'incrementera de maniere automatique)
-    nom_variable type_variable ;) (creer autant de champ que necessaire pour votre projet)
+    id INT IDENTITY(1,1) PRIMARY KEY, (permet de definir une clé primaire qui s'incrementera de maniere automatique)
+    nom_variable type_variable ) (creer autant de champ que necessaire pour votre projet)
     
     
     installer pyodbc  : pip install pyodbc  (package permettant la liaison avec la base de donnee)
